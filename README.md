@@ -15,7 +15,9 @@ x = torch.tensor([2.0], requires_grad=True)
 
 ## Compute Caputo fractional derivative of the function
 alpha = 0.9
+
 caputo_derivative = caputo_fractional_derivative(f(x), x, alpha)
+
 print(caputo_derivative.item())
 
 
